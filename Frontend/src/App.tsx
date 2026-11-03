@@ -1,6 +1,5 @@
 import Footer from './Footer.tsx';
 import Navbar from './Navbars/Navbar.tsx';
-import Sidebar from './Navbars/Leftsidebar.tsx'; // adjust to the real path
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.tsx';
 import Items from './pages/Items.tsx';
@@ -18,7 +17,7 @@ function App() {
 
       <div className="flex">
         <Leftsidebar />
-        <Rightsidebar/>
+        <Rightsidebar />
 
         <main className="flex-1 p-4">
           <Routes>
