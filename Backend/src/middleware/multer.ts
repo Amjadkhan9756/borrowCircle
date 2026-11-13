@@ -4,9 +4,12 @@ const storage = multer.memoryStorage();
 
 const upload = multer(
     {
-         storage: storage,
-         
-     }
+        storage: storage,
+        limits: {
+            
+        },
+
+    }
 );
 
 export default upload;
