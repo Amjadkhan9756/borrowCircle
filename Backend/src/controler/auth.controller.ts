@@ -1,6 +1,6 @@
 
 import authModel from '../models/auth.model.js';
-import { Request, Response } from 'express';
+import type { Request, Response } from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
